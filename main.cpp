@@ -15,10 +15,13 @@ class person{
 class student:public person{
     private:
     string grade;
+    int num;
     public:
     void setstudent(){
     cout<<"enter student grade"<<endl;
     cin>>grade;
+    cout<<"enter number"<<endl:
+    cin>>num;
     }
 };
 int main() {
